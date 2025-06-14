@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('../assets/fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/kaushanscript-regular-webfont.woff') format('woff'),
+         url('../assets/fonts/KaushanScript-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, p {
+    font-family: 'kaushan_scriptregular';
+}
