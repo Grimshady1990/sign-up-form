@@ -5,6 +5,14 @@
          url('../assets/fonts/KaushanScript-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-
 }
+body{
+    display:flex
+}
+#background {
+    height: 100vh;
+    width: 33vw;
+}
+
+
 
