@@ -17,7 +17,7 @@ body{
 }
 
 #banner{
-    height: 200px;
+    height: 20vh;
     width:33vw;
     background-color: rgba(217, 0, 0, 0.247);
     position: relative;
@@ -25,15 +25,21 @@ body{
     
 }
 
-#logo {
-    height:100px;
-    width: 100px;
+#logo{
+    height: 10vh;
+
+}
+
+h1 {
+    font-size: 3vh;
 }
 
 #name-logo{
+
     display:flex;
     flex-direction: column;
     align-items: center;
+    
     
 }
 
@@ -51,8 +57,10 @@ body{
 #first-parent2 {
     display:flex;
     flex-direction: column;
+    justify-items: space-between;
     
 }
+
 
 
 
