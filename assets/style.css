@@ -21,7 +21,7 @@ body{
     width:33vw;
     background-color: rgba(217, 0, 0, 0.247);
     position: relative;
-    top: 150%;
+    top: 100%;
     
 }
 
@@ -37,6 +37,8 @@ body{
     
 }
 
+
+
 #credits {
     position: absolute;
     bottom: 10px;
@@ -45,6 +47,17 @@ body{
     display:flex;
     justify-content: center;
 }
+
+#first-parent2 {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
 
 
 

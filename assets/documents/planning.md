@@ -88,13 +88,13 @@ Since this project is only made with CSS and HTML I don't think creating pseudo 
 
 # Step By Step
 
-## Step 1
+## Step 1 (✅)
 Structure divs and give them ID's & classes {
     I don't know if this is the first thing I should do but I feel if I structure the divs and label them
     it is going the be easier to fill in the gaps later 
 }
 
-## Step 2
+## Step 2 (✅)
 
 Fill the div with project elements {
     Now fill the div structure with all the required elements forms, images, headers etc
