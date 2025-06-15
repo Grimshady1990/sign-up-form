@@ -69,20 +69,22 @@ h1 {
     width: 33vw;
 }
 
-#first-parent2 {
+/* #first-parent2 {
     display:flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between; 
     
-}
+} */
 
 #p1 {
     margin: 10vh 10vw 2.5vh 2.5vw;
 }
 
-/* label, input {
+label, input {
     display: block;
-} */
+}
+
+form {display: flex;}
 
 
 
