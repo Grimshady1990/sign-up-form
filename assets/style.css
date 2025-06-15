@@ -12,18 +12,17 @@ body{
     display:flex;
     margin: 0;
 }
-#background {
+/*#background {
     height: 100vh;
     width: 33vw;
     position: absolute;
-}
+} */
 
 #banner{
     height: 20vh;
     width:33vw;
     background-color: rgba(217, 0, 0, 0.247);
-    position: relative;
-    top: 100%;
+    
     
 }
 
@@ -55,6 +54,12 @@ h1 {
 #first-parent1 {
     display:flex;
     justify-content: center;
+    background-image: 
+        url("./images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 33vw;
 }
 
 #first-parent2 {
