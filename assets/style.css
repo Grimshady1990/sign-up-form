@@ -19,6 +19,7 @@ body{
     display:flex;
     margin: 0;
     height: 100vh;
+    background-color: rgb(255, 204, 187);
 
 }
 /*#background {
@@ -79,20 +80,31 @@ h1 {
     
 } */
 
-#p1 {
-    margin: 10vh 10vw 2.5vh 2.5vw;
+.p-group {
+    margin: 0 10vw 2.5vh 2.5vw;
+    max-width: 700px;
+    min-width: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: auto;
+    font-size: 25px;
 }
 
 label, input {
     display: block;
+
 }
 
 form {
     display: flex;
     
     margin-right: 30px;
-    max-width: 600px;
-    margin-left: 2.5vw;
+    width: 100vw;
+    padding-left: 2.5vw;
+    padding-top: 1lh;
+    background-color: rgb(255, 215, 201);
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.197);
 
 }
 
@@ -117,6 +129,24 @@ form {
     margin: 2.0vh 0 2.0vh 2.5vw;
     width: 200px;
 }
+#p-body {
+    display: inline-block;
+    text-wrap: wrap;
+}
+
+#p-header {
+    margin-top: 15vh;
+}
+
+#row2 {
+    margin-top: 49px;
+}
+#form-header {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
 
 
 

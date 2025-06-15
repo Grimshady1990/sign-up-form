@@ -24,44 +24,48 @@
     </div>
 
     <div id="first-parent2" class="first-couple">
-        <p id="p1" class="pgroup"><strong>Find Your Tribe. Fuel Your Grind.</strong> <br><br>
+        <p id="p-header" class="p-group"><strong>Find Your Tribe. Fuel Your Grind.</strong>
+        </p>
 
-            Whether you're an entrepreneur, fitness fanatic, productivity junkie, or digital nomad — <em>Grind Life</em> is where
+        <p id="p-body" class="p-group">
+            Whether you're an entrepreneur, fitness fanatic, productivity junkie, or digital nomad <i>Grind Life</i> is
+            where
             driven people connect, collaborate, and level up together. If you're serious about the hustle, you're in the
-            right place. <br><br> <strong>Don’t miss out — join now and meet your grind-minded crew.</strong></p>
+            right place.
+        </p>
+        <p id="final-words" class="p-group">
+
+                <strong>Don’t miss out — join now and meet your grind-minded crew.</strong>
+
+        </p>
 
         <form id="login-form" action="https://httpbin.org/post" method="post">
+            
             <div id="row1" class="form">
+                <legend id="form-header">Let's get to work!</legend>
                 <label for="first-name">FIRST NAME</label>
                 <input type="text" id="first-name" name="first-name" placeholder="John">
                 <div class="right-form">
                     <label for="email-add">EMAIL</label>
-                <input type="email" id="email-add" name="email" placeholder="johndoe@email.com">
-                <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="password" required="required">    
-                    
+                    <input type="email" id="email-add" name="email" placeholder="johndoe@email.com">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" required="required">
+
                 </div>
             </div>
 
             <div id="row2" class="form">
                 <label for="last-name">LAST NAME</label>
-                    <input type="text" id="last-name" name="last-name" placeholder="Doe">
-                
+                <input type="text" id="last-name" name="last-name" placeholder="Doe">
+
                 <div class="right-form">
                     <label for="phone-num">PHONE NUMBER</label>
                     <input type="tel" id="phone-num" name="phone_number" placeholder="+4412345123456">
-                    
+
                     <label for="confirm-password">CONFIRM PASSWORD</label>
                     <input type="password" id="confirm-password" name="confirm_password" required="required">
                 </div>
             </div>
-            <div id="row3" class="form">
-                
-                <div class="right-form">
-                    
-                </div>
-            </div>
-
         </form>
         <input id="submit-button" type="submit" form="login-form" value="Create Account" />
         <p id="login">Already have an account? <a href="">Log in</a></p>
