@@ -84,7 +84,11 @@ label, input {
     display: block;
 }
 
-form {display: flex;}
+form {
+    display: flex;
+    justify-content: space-between;
+
+}
 
 
 
