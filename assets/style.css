@@ -7,6 +7,12 @@
     font-style: normal;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 body{
     display:flex;
@@ -68,6 +74,10 @@ h1 {
     flex-direction: column;
     /* justify-content: space-between; */
     
+}
+
+#p1 {
+    margin: 10vh 10vw 2.5vh 2.5vw;
 }
 
 
