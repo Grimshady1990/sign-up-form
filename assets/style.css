@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'kaushan_scriptregular';
     src: url('../assets/fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
-         url('../assets/fonts/kaushanscript-regular-webfont.woff') format('woff'),
-         url('../assets/fonts/KaushanScript-Regular.otf') format('opentype');
+        url('../assets/fonts/kaushanscript-regular-webfont.woff') format('woff'),
+        url('../assets/fonts/KaushanScript-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -15,29 +15,30 @@
 }
 
 
-body{
-    display:flex;
+body {
+    display: flex;
     margin: 0;
     height: 100vh;
     background-color: rgb(255, 204, 187);
 
 }
+
 /*#background {
     height: 100vh;
     width: 33vw;
     position: absolute;
 } */
 
-#banner{
+#banner {
     height: 20vh;
-    width:33vw;
+    width: 33vw;
     background-color: rgba(217, 0, 0, 0.247);
     margin-top: 20vh;
-    
-    
+
+
 }
 
-#logo{
+#logo {
     height: 10vh;
 
 }
@@ -46,13 +47,16 @@ h1 {
     font-size: 3vh;
 }
 
-#name-logo{
-
-    display:flex;
+#name-logo {
+    height: 20vh;
+    width: 33vw;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
+    justify-content: center;
+
+
+
 }
 
 
@@ -62,10 +66,11 @@ h1 {
     position: absolute;
     bottom: 10px;
 }
+
 #first-parent1 {
-    display:flex;
+    display: flex;
     justify-content: center;
-    background-image: 
+    background-image:
         url("./images/background.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -91,14 +96,15 @@ h1 {
     font-size: 25px;
 }
 
-label, input {
+label,
+input {
     display: block;
 
 }
 
 form {
     display: flex;
-    
+
     margin-right: 30px;
     width: 100vw;
     padding-left: 2.5vw;
@@ -113,22 +119,24 @@ form {
 }
 
 
- #login {
+#login {
     margin-left: 2.5vw;
- }
- input {
+}
+
+input {
     margin-bottom: 1vh;
     height: 30px;
     width: 300px;
     border: 1px solid lightgrey;
     border-radius: 3px;
     padding-left: 1ch;
- }
+}
 
- #submit-button {
+#submit-button {
     margin: 2.0vh 0 2.0vh 2.5vw;
     width: 200px;
 }
+
 #p-body {
     display: inline-block;
     text-wrap: wrap;
@@ -141,24 +149,9 @@ form {
 #row2 {
     margin-top: 49px;
 }
+
 #form-header {
     font-size: 25px;
     margin-bottom: 20px;
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
