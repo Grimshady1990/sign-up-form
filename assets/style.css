@@ -11,12 +11,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 0;
 }
 
 
 body{
     display:flex;
     margin: 0;
+    height: 100vh;
+
 }
 /*#background {
     height: 100vh;
@@ -86,8 +89,33 @@ label, input {
 
 form {
     display: flex;
-    justify-content: space-between;
+    
+    margin-right: 30px;
+    max-width: 600px;
+    margin-left: 2.5vw;
 
+}
+
+#row1 {
+    margin-right: 50px;
+}
+
+
+ #login {
+    margin-left: 2.5vw;
+ }
+ input {
+    margin-bottom: 1vh;
+    height: 30px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding-left: 1ch;
+ }
+
+ #submit-button {
+    margin: 2.0vh 0 2.0vh 2.5vw;
+    width: 200px;
 }
 
 
