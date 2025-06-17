@@ -42,9 +42,7 @@ body {
 
 h1 {
     font-size: 3vh;
-     @media (width < 720px) {
     text-align: center;
-    }
 }
 
 #name-logo {
@@ -70,29 +68,30 @@ h1 {
 #first-parent1 {
     display: flex;
     justify-content: center;
-    flex-grow: 2;
     background-image:
-        url("./images/background.png");
+        url("./images/bg.png");
     background-repeat:repeat;
     
     background-size: 100% 100%;
     height: 100%;
     width: 33vw;
+    
 
 }
 
 .p-group {
     margin: 0 10vw 2.5vh 2.5vw;
-    max-width: 600px;
+    
     display: flex;
     flex-direction: column;
-    font-size: 25px;
+    
+    font-size: 50px;
 }
 
 form {
-    
+    width:100vw;
     margin-right: 30px;
-    padding-left: 2.5vw;
+    padding-left: 20px;
     padding-top: 1lh;
     background-color: rgb(255, 215, 201);
     box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.197);
@@ -101,49 +100,45 @@ form {
 .form-groups {
     display: flex;
     flex-wrap: wrap;
-    margin-right: 60px; 
+    
 }
 
 .form-groups > * {
     margin-right: 60px;
 }
+
+.form-groups > input {
+    flex-shrink: 2;
+}
+
 .label-input{
     display: flex;
     flex-direction: column;
+    
 }
 
 
 
 #login {
     margin-left: 2.5vw;
-
-     @media (width < 720px) {
     padding-bottom: 20px;
-    }
 }
 
 input {
     margin-bottom: 1vh;
     height: 40px;
-    width: 350px;
+    
     border: 1px solid lightgrey;
     border-radius: 3px;
     padding-left: 1ch;
+    flex: 1 1 1;
 
-    @media (width < 720px) {
-    max-width: 250px;
-    }
     
 }
 
 #submit-button {
     margin: 2.0vh 0 2.0vh 2.5vw;
     width: 200px;
-}
-
-#p-body {
-    display: inline-block;
-    text-wrap: wrap;
 }
 
 #p-header {
@@ -159,4 +154,13 @@ input {
 }
 label {
     font-size: 20px;
+    width: 292px;
 }
+
+#p-body {
+    display: block;
+    text-wrap: wrap;
+    max-width: 1000px;
+}
+
+
