@@ -13,28 +13,12 @@
     box-sizing: border-box;
     border: 0;
 }
-
-html{
-    @media (width < 720px) {
-        
-    }
-}
-
-
 body {
     display: flex;
     margin: 0;
     height: 100vh;
     width: 100vw;
     background-color: rgb(255, 204, 187);
-
-    @media (width < 720px) {
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        padding-bottom: 10px;
-    }
-
 }
 
 /*#background {
@@ -48,12 +32,6 @@ body {
     width: 33vw;
     background-color: rgba(217, 0, 0, 0.247);
     margin-top: 20vh;
-
-    @media (width < 720px) {
-        width: 300px;
-        display: flex;
-        justify-content: center;
-    }
 
 }
 
@@ -77,11 +55,6 @@ h1 {
     align-items: center;
     justify-content: center;
 
-    @media (width < 720px) {
-        
-    }
-
-
 
 }
 
@@ -91,10 +64,6 @@ h1 {
     font-size: 1.3vh;
     position: absolute;
     bottom: 10px;
-    
-    @media (width < 720px) {
-        top: 5px;
-    }
     
 }
 
@@ -110,18 +79,7 @@ h1 {
     height: 100%;
     width: 33vw;
 
-    @media (width < 720px) {
-       width: 430px;
-        
-    }
 }
-
-/* #first-parent2 {
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between; 
-    
-} */
 
 .p-group {
     margin: 0 10vw 2.5vh 2.5vw;
@@ -134,27 +92,20 @@ h1 {
 form {
     
     margin-right: 30px;
-    width: 100vw;
     padding-left: 2.5vw;
     padding-top: 1lh;
     background-color: rgb(255, 215, 201);
     box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.197);
-    @media (width < 720px) {
-    max-width: 280px;
-    }
-
-
 
 }
 .form-groups {
     display: flex;
-    gap: 60px;
-    @media (width < 720px) {
-    flex-direction: column;
-    gap: 0px;
-    }
-    
-    
+    flex-wrap: wrap;
+    margin-right: 60px; 
+}
+
+.form-groups > * {
+    margin-right: 60px;
 }
 .label-input{
     display: flex;
