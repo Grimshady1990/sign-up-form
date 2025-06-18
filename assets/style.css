@@ -80,7 +80,7 @@ h1 {
 }
 
 .p-group {
-    margin: 0 10vw 2.5vh 2.5vw;
+    margin-left: 100px;
     
     display: flex;
     flex-direction: column;
@@ -114,31 +114,40 @@ form {
 .label-input{
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
+    
     
 }
 
 
 
 #login {
-    margin-left: 2.5vw;
+    margin-left: 100px;
     padding-bottom: 20px;
+    font-size: 28px
 }
 
 input {
     margin-bottom: 1vh;
-    height: 40px;
-    
+    height: 60px;
+    width: 600px;
     border: 1px solid lightgrey;
     border-radius: 3px;
     padding-left: 1ch;
-    flex: 1 1 1;
+    font-size: 40px;
+    flex-shrink: 1;
+    
+    
 
     
 }
 
 #submit-button {
-    margin: 2.0vh 0 2.0vh 2.5vw;
-    width: 200px;
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 280px;
+    font-size: 30px;
 }
 
 #p-header {
@@ -148,12 +157,13 @@ input {
 
 
 #form-header {
-    font-size: 25px;
-    margin-bottom: 20px;
+    font-size: 50px;
+    margin-bottom: 30px;
     font-weight: bold;
+    margin-left: 100px;
 }
 label {
-    font-size: 20px;
+    font-size: 28px;
     width: 292px;
 }
 
@@ -161,6 +171,10 @@ label {
     display: block;
     text-wrap: wrap;
     max-width: 1000px;
+}
+
+#final-words {
+    margin-bottom: 100px;
 }
 
 
