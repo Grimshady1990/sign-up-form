@@ -233,6 +233,7 @@ input:focus-visible {
         flex-direction: column;
         margin: 0;
         padding:0;
+        width: 100vw;
         
         
         
@@ -316,6 +317,10 @@ input:focus-visible {
 
     #confirm-password {
         margin-bottom: 40px;
+    }
+
+    #credits {
+        display: none;
     }
 
 }
