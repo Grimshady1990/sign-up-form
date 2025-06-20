@@ -220,7 +220,7 @@ input:focus-visible {
     -webkit-transition: 0.4s;
 }
 
-@media (width < 900px) {
+@media (width < 1541px) {
     body {
         flex-direction: column;
         margin: 0;
@@ -311,7 +311,7 @@ input:focus-visible {
     box-shadow: none;
     width: 279px;
     margin-left: 40px;
-    background-color: chocolate;
+    background-color: #f3c593;
     }
 
     #login-form {
