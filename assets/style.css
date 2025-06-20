@@ -71,6 +71,7 @@ h1 {
 #first-parent2 {
     min-width: 2000px;
     height: 100vh;
+    
 }
 
 .p-group {
@@ -114,7 +115,6 @@ form {
 
 #login {
     margin-left: 100px;
-    padding-bottom: 20px;
     font-size: 28px;
     text-decoration: none;
 }
@@ -139,7 +139,7 @@ input {
     font-family: "Roboto Condensed";
     margin-left: 100px;
     margin-top: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 280px;
     font-size: 30px;
     font-weight: bold;
