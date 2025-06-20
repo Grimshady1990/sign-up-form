@@ -21,7 +21,7 @@ body {
 #banner {
     height: 400px;
     width: 33vw;
-    background-color: rgba(217, 0, 0, 0.247);
+    background-color: rgba(48, 64, 100, 0.422);
     margin-top: 300px;
     display: flex;
     justify-content: center;
@@ -30,6 +30,8 @@ body {
 
 #logo {
     height: 200px;
+    filter: brightness(0) saturate(100%) invert(73%) sepia(56%) saturate(5912%) hue-rotate(348deg) brightness(85%) contrast(92%);
+
 
 }
 
@@ -37,6 +39,7 @@ h1 {
     font-size: 50px;
     text-align: center;
     font-family: 'abhaya_librebold';
+    filter: brightness(0) saturate(100%) invert(73%) sepia(56%) saturate(5912%) hue-rotate(348deg) brightness(85%) contrast(92%);
 }
 
 #name-logo {
@@ -163,7 +166,7 @@ input {
     box-shadow: none;
     width: 279px;
     margin-left: 101px;
-    background-color: chocolate;
+    background-color: #d2691e;
 }
 
 #p-header {
