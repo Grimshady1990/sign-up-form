@@ -171,6 +171,10 @@ input {
     -webkit-transition: 0.01s;
 }
 
+#login-link:hover {
+    color: #e3ab6e;
+}
+
 #p-header {
     margin-top: 10vh;
 }
