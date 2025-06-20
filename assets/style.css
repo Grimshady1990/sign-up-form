@@ -133,9 +133,12 @@ form {
 #login {
     margin-left: 100px;
     padding-bottom: 20px;
-    font-size: 28px
+    font-size: 28px;
+    text-decoration: none;
 }
-
+#login-link {
+    text-decoration: none;
+}
 input {
     margin-bottom: 1vh;
     height: 60px;
@@ -293,8 +296,9 @@ input:focus-visible {
     }
 
     #login {
-        max-width: 300px;
-        
+        max-width: 360px;
+        font-size: 22px;
+        margin-left: 50px;
     }
 
     #p-body {
@@ -314,10 +318,6 @@ input:focus-visible {
 
     #submit-button {
         margin-left: 40px;
-    }
-
-    #login {
-        margin-left: 50px;
     }
 
     #confirm-password {
