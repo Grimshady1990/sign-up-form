@@ -62,10 +62,12 @@ h1 {
     justify-content: center;
     background-image:
         url("./images/bg.png");
-    background-repeat:repeat;  
+    background-repeat:no-repeat;  
     background-size: 100% 100%;
     height: 100vh;
     width: 33vw;
+    
+    
 }
 
 #first-parent2 {
@@ -223,6 +225,7 @@ input:focus-visible {
         width: 100vw;
         height: 300px;
         margin: 0;
+
     }
 
     #banner{    
