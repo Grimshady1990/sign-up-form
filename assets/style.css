@@ -155,19 +155,20 @@ input {
     border-radius: 10px;
     box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.197);
     border: none;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 #submit-button:hover {
     -webkit-transition: 0.4s;
-    background-color: rgb(190, 95, 27);
+    background-color: #e3ab6e;
 }
 
 #submit-button:active{
     box-shadow: none;
     width: 279px;
     margin-left: 101px;
-    background-color: #d2691e;
+    background-color: #f3c593;
+    -webkit-transition: 0.01s;
 }
 
 #p-header {
