@@ -15,7 +15,7 @@
 }
 body {
     display: flex;
-    background-color: rgb(255, 204, 187);
+    background-color: rgba(48, 64, 100, 0.422);
 }
 
 #banner {
@@ -30,7 +30,7 @@ body {
 
 #logo {
     height: 200px;
-    filter: brightness(0) saturate(100%) invert(73%) sepia(56%) saturate(5912%) hue-rotate(348deg) brightness(85%) contrast(92%);
+    filter: brightness(0) saturate(100%) invert(75%) sepia(14%) saturate(1264%) hue-rotate(345deg) brightness(103%) contrast(101%);
 
 
 }
@@ -39,7 +39,7 @@ h1 {
     font-size: 50px;
     text-align: center;
     font-family: 'abhaya_librebold';
-    filter: brightness(0) saturate(100%) invert(73%) sepia(56%) saturate(5912%) hue-rotate(348deg) brightness(85%) contrast(92%);
+    filter: brightness(0) saturate(100%) invert(75%) sepia(14%) saturate(1264%) hue-rotate(345deg) brightness(103%) contrast(101%);
 }
 
 #name-logo {
@@ -91,7 +91,7 @@ form {
     margin-right: 30px;
     padding-left: 20px;
     padding-top: 1lh;
-    background-color: rgb(255, 215, 201);
+   background-color: rgba(48, 64, 100, 0.422);
     box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.197);
 }
 
@@ -126,13 +126,14 @@ form {
 
 #login-link {
     text-decoration: none;
+    color: #ffc07c;
 }
 
 input {
     margin-bottom: 1vh;
     height: 60px;
     width: 600px;
-    border: 2px solid rgba(225, 225, 225, 0.966);
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 3px;
     padding-left: 1ch;
     font-size: 30px;
@@ -148,7 +149,7 @@ input {
     width: 280px;
     font-size: 30px;
     font-weight: bold;
-    background-color: rgb(201, 119, 61);
+    background-color: #ffc07c;
     text-align: center;
     padding: 0;
     border-radius: 10px;
@@ -184,7 +185,7 @@ label {
     font-size: 28px;
     width: 292px;
     font-family: "Roboto Condensed";
-    color: rgb(104, 114, 125);
+    color: #ffc07c;
 }
 
 #p-body {
@@ -209,7 +210,7 @@ label {
 
 input:focus-visible {
     box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.197);
-    border: 2px solid salmon;
+    border: 2px solid #ffc07c;
     outline:none;
     -webkit-transition: 0.4s;
 }
